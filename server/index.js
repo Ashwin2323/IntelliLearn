@@ -9,6 +9,9 @@ import courseRoute from './routes/courseRoute.js';
 import mediaRoute from './routes/mediaRoute.js';
 import purchaseRoute from './routes/purchaseCourseRoute.js';
 import courseProgressRoute from './routes/courseProgressRoute.js';
+import path from 'path';
+
+const _dirname= path.resolve();
 
 dotenv.config();
 connectDB();
@@ -31,12 +34,11 @@ app.use("/api/v1/course",courseRoute);
 app.use("/api/v1/purchase",purchaseRoute);
 app.use("/api/v1/progress",courseProgressRoute);
 
-// app.get("/home", (_, res) => {
-//     res.status(200).json({
-//         success: true,
-//         message: "Welcome to Home Page"
-//     })
-// });
+app.use(express.static(path.join(_dirname,"/client/dist")))
+app.get('*',(_,res)=>{
+    res.sendFile(path.resolve(_dirname,"client","dist","index.html"))
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
