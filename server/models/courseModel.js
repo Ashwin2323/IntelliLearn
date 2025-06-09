@@ -20,7 +20,7 @@ const courseSchema = new mongoose.Schema({
     },
     courseThumbnail:{
         type:String,
-        required:true
+        required:false
     },
     enrolledStudents:[
         {
