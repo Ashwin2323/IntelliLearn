@@ -21,7 +21,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "sonner";
 
-const MEDIA_API = "https://intellilearn-7iut.onrender.com/";
+const MEDIA_API = "https://intellilearn-7iut.onrender.com";
 
 const LectureTab = () => {
   const [lectureTitle, setLectureTitle] = useState("");
