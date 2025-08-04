@@ -1,4 +1,4 @@
-# 🍔 IntelliLearn - Online Food Delivery App
+# 🎓 IntelliLearn - Online Learning Platform 
 
 **IntelliLearn** is a modern, full-stack web application that empowers learners and instructors to create, manage, and participate in educational courses seamlessly.  
 It’s designed as a learning and portfolio project to showcase real-world architecture using **Node.js**, **React**, **MongoDB**, **Javascript**, and modern UI practices.
