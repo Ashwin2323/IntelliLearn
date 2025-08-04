@@ -14,7 +14,8 @@ It’s designed as a learning and portfolio project to showcase real-world archi
 
 ## 📸 Screenshots
 
-> <img width="1894" height="907" alt="image" src="https://github.com/user-attachments/assets/c4936b52-8165-4afd-b123-e177f635929f" />
+> <img width="1898" height="904" alt="image" src="https://github.com/user-attachments/assets/fee3c02e-2503-4528-8d7b-ecf1c1ed13f4" />
+
 
 
 ## 🛠 Tech Stack
