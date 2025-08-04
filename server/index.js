@@ -20,7 +20,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: "https://intellilearn-7iut.onrender.com/",
+    origin: "http//:localhost:8080/",
     credentials: true
 }));
 app.use(cookieParser());
