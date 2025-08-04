@@ -29,5 +29,5 @@ It’s designed as a learning and portfolio project to showcase real-world archi
 | Other          | dotenv, nodemon, etc.    
 
 ## Live Link:
-> https://learning-management-system-2-9avw.onrender.com/
+> https://intellilearn-7iut.onrender.com/
                                            
